@@ -1,0 +1,98 @@
+body{
+font-family:Arial;
+margin:0;
+background:#f5f5f5;
+}
+
+header{
+background:black;
+color:white;
+text-align:center;
+padding:25px;
+}
+
+nav{
+background:#222;
+text-align:center;
+padding:15px;
+}
+
+nav a{
+color:white;
+margin:20px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#00ffcc;
+}
+
+.hero{
+height:400px;
+background:url("https://images.unsplash.com/photo-1518091043644-c1d4457512c6");
+background-size:cover;
+color:rgb(0, 0, 0);
+text-align:center;
+padding-top:120px;
+}
+
+.btn{
+background:#00cc88;
+color:white;
+padding:15px 30px;
+text-decoration:none;
+border-radius:5px;
+}
+
+.products{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+padding:30px;
+}
+
+.products{
+display:grid;
+grid-template-columns: repeat(5, 1fr);
+gap:20px;
+padding:30px;
+justify-items:center;
+}
+
+.product img{
+width:100%;
+border-radius:5px;
+}
+
+button{
+background:black;
+color:white;
+border:none;
+padding:10px 20px;
+cursor:pointer;
+}
+
+button:hover{
+background:#00cc88;
+}
+
+.contact form{
+display:flex;
+flex-direction:column;
+width:300px;
+margin:auto;
+}
+
+input, textarea{
+margin:10px 0;
+padding:10px;
+}
+
+footer{
+background:black;
+color:white;
+text-align:center;
+padding:10px;
+margin-top:40px;
+}
