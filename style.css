@@ -45,6 +45,11 @@ text-decoration:none;
 border-radius:5px;
 }
 
+h2{
+text-align:center;
+margin-top:20px;
+}
+
 .products{
 display:flex;
 flex-wrap:wrap;
@@ -95,8 +100,4 @@ color:white;
 text-align:center;
 padding:10px;
 margin-top:40px;
-}
-h2{
-text-align:center;
-margin-top:20px;
 }
